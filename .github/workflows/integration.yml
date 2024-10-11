@@ -25,5 +25,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: static-site
+          path:  /home/runner/work/contoso-spaces-next-web-app/contoso-spaces-next-web-app/out
       - name: Test artifact download
         run: ls -R
