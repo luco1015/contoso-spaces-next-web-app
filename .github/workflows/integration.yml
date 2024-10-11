@@ -15,7 +15,7 @@ jobs:
           uses: actions/upload-artifact@v4
           with:
             name: static-site
-            path:  .next/
+            path:  /home/runner/work/contoso-spaces-next-web-app/contoso-spaces-next-web-app/out
     release-project:
       name: Release project
       runs-on: ubuntu-latest
