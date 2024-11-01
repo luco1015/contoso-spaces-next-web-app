@@ -1,5 +1,5 @@
 name: Build Next.js web application
-on: push
+on: workflow_dispatch
 jobs:
     build-project:
       name: Build project
