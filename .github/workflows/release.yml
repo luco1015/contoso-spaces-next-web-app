@@ -1,9 +1,6 @@
 name: Release
 
-on:
-  push:
-    tags:
-      - 'v*' # Trigger on version tags (e.g., v1.0, v2.1.0)
+on: workflow_dispatch
 
 jobs:
   release:
