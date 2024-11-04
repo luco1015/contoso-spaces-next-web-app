@@ -39,7 +39,7 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "./site.zip"
-          bodyFile: "body.md"
+#         bodyFile: "body.md"
 
       # - name: Create GitHub release
       #   id: create-new-release
